@@ -15,3 +15,18 @@ In layman terms, the problem the paper is trying to solve is the difficulty in a
 
 The paper goes on to test the viability of their method on their own generated images and also on actual Brainbow images of the mouse hippocampus.
 
+## Table of Contents
+
+- Abstract
+- Introduction
+- Methodology
+    - Denoising
+    - Dimensionality Reduction
+    - Supervoxel Clustering
+- Brainbow
+    - Simulating Brainbow tissues
+- Datasets
+- Results
+- Conclusions
+- Implementation Attempt
+
