@@ -1,11 +1,19 @@
 ![Segmentation-Of-Neurons-From-Multi-Spectral-Images](https://biox.stanford.edu/files/styles/wide/public/ting_news_banner_large.webp?orig=png)
 # Segmentation-Of-Neurons-From-Multi-Spectral-Images
-The research paper titled "Automated scalable segmentation of neurons from multispectral images." from Uygar Sümbül et al. is discussed here in layman terms and an attempt to implement segmentation algorithms on various datasets.
+The research paper titled "Automated scalable segmentation of neurons from multispectral images." is discussed here in layman terms and an attempt to implement segmentation algorithms on various datasets.
+Uygar Sümbül, et al. (2016). Automated scalable segmentation of neurons from multispectral images. [online] Neural Information Processing Systems (NIPS 2016). Available at: https://arxiv.org/abs/1611.00388 [Accessed 20 Jul. 2024].
+
+This is purely for educational purposes, all credits go to Uygar Sümbül et al.
 
 ## Abstract
 ```
-"Reconstruction of neuroanatomy is a fundamental problem in neuroscience. Stochastic expression of colors in individual cells is a promising tool, although its use in the nervous system has been limited due to various sources of variability in expression. Moreover the intermingled anatomy of neuronal trees is challenging for existing segmentation algorithms. Here, we propose a method to automate the
-segmentation of neurons in such (potentially pseudo-colored) images. The method uses spatio-color relations between the voxels, generates supervoxels to reduce the problem size by four orders of magnitude before the final segmentation, and is parallelizable over the supervoxels. To quantify performance and gain insight, we generate simulated images, where the noise level and characteristics, the density of expression, and the number of fluorophore types are variable. We also present segmentations of real Brainbow images of the mouse hippocampus, which reveal many of the dendritic segments"
+"Reconstruction of neuroanatomy is a fundamental problem in neuroscience. Stochastic expression of colors in individual cells is a promising tool,
+although its use in the nervous system has been limited due to various sources of variability in expression. Moreover the intermingled anatomy of
+neuronal trees is challenging for existing segmentation algorithms. Here, we propose a method to automate the segmentation of neurons in such
+(potentially pseudo-colored) images. The method uses spatio-color relations between the voxels, generates supervoxels to reduce the problem size
+by four orders of magnitude before the final segmentation, and is parallelizable over the supervoxels. To quantify performance and gain insight,
+we generate simulated images, where the noise level and characteristics, the density of expression, and the number of fluorophore types are variable.
+We also present segmentations of real Brainbow images of the mouse hippocampus, which reveal many of the dendritic segments"
 ```
 
 **Spatio-color** relations means that the algorithm identifies neurons with same color/intensity and their position in space. Since we are using voxels, there is a third dimension, depth, which can be used for spatio-relations. 
