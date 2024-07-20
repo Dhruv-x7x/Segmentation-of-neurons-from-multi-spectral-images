@@ -1,6 +1,7 @@
 ![Segmentation-Of-Neurons-From-Multi-Spectral-Images](https://biox.stanford.edu/files/styles/wide/public/ting_news_banner_large.webp?orig=png)
 # Segmentation-Of-Neurons-From-Multi-Spectral-Images
 The research paper titled "Automated scalable segmentation of neurons from multispectral images." is discussed here in layman terms and an attempt to implement segmentation algorithms on various datasets.
+
 Uygar Sümbül, et al. (2016). Automated scalable segmentation of neurons from multispectral images. [online] Neural Information Processing Systems (NIPS 2016). Available at: https://arxiv.org/abs/1611.00388 [Accessed 20 Jul. 2024].
 
 This is purely for educational purposes, all credits go to Uygar Sümbül et al.
