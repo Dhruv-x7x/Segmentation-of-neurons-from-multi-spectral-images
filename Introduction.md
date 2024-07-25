@@ -1,4 +1,4 @@
-##Introduction to the problem
+#Introduction to the problem
 
 '''
 "...mapping neuronal structures requires a large field of view, a high resolution, a robust labeling technique, and computational methods to sort the data."
@@ -8,5 +8,5 @@ The labelling technique talked about in the paper is **Braibow** technique. It w
 
 **Connectome/connectomics**: Connectome is the map of neuronal connections in the brain and its study is referred to as connectomics. It is necessary for brain and disease research. 
 
-### Brainbow In Detail
+## Brainbow In Detail
 
