@@ -28,15 +28,4 @@ The paper goes on to test the viability of their method on their own generated i
 ## Table of Contents
 
 - [Abstract](##Abstract)
-- [Introduction](Introduction.md)
-- Methodology
-    - Denoising
-    - Dimensionality Reduction
-    - Supervoxel Clustering
-- Brainbow
-    - Simulating Brainbow tissues
-- Datasets
-- Results
-- Conclusions
-- Implementation Attempt
-
+- [Methodology](Methodology.md)
