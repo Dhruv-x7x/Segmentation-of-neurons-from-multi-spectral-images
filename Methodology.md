@@ -58,3 +58,5 @@ $$
 Where **x** is any non-zero vector. This implies all eigen values of M are non-negative. Clearly, if the hessian is not always positive semi-definite we can not guarantee convexity.
 
 Does this mean that the problem is unsolvable? In a way, yes but we can approximate the factors to a reasonable extent. That is, even if we can not find a global minima due to non-convexity, we are satisfied if we can get to a good local minima that is close to the global minima. Even this approximation is very useful in applications to hyperspectral imaging. One way to approximate is **Multiplicative Update**, which is a technique given by *Lee* and *Seung*. 
+
+NMF is used in hyperspectral imaging because it is a high dimensional problem. NMF helps in breaking down the problem making it more interpretable. Hyperspectral images have a really large number of spectral bands and each pixel has a lot of information. On the contrary, neuroanatomical 3D images have too few color channels for this method to be suitable. 
