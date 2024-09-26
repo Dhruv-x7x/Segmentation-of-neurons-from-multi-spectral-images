@@ -8,3 +8,9 @@ We would not want noise to affect the automatic segmentation further down the li
   - Stochastic expression of the colors of fluorescent proteins, which just means that the colors show up randomly, in no particular pattern.
   - Protein density along the neurite.
   - Some proteins are membrane binding while others stay in the cytoplasm resulting in a difference in color intensity.
+
+### Collaborative Filtering
+
+The term is used most in *recommender systems*, where this technique makes predictions about a user's likes and dislikes based on the preferences of other users who share similar tastes. In the context of image denoising, collaborative filtering finds similar patches, regions with similar intensities, texture, patterns, etc., and denoises them collectively in an additional dimension. 
+
+The additional dimension is important because this filtering technique is not applied in the traditional physical dimensions such as x, y and z but rather on a higher dimension consisting of a group of similar patches. Traditional filters such as the gaussian are applied in the physical dimensions where the neighbourhood of pixels contributing to the filtering is based on spatial proximity.
