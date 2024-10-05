@@ -17,8 +17,8 @@ The additional dimension is important because this filtering technique is not ap
 
 ### BM4D Denoiser
 
-BM4D and BM3D work on similar principles which involve collaborative filtering, hard thresholding and wiener filtering (optional). Patches are grouped if their disimilarity falls below a certain threshold, after which all the groups are stacked to form a higher dimensional shape and the filtering is applied across each group. The inverse transform of the filtering is computed to reproduce the filtered blocks back as a 3d image. 
+BM4D and BM3D work on similar principles which involve block matching, collaborative filtering, hard thresholding and wiener filtering (optional). Patches are grouped if their disimilarity falls below a certain threshold, after which all the groups are stacked to form a higher dimensional shape and the filtering is applied across each group. The inverse transform of the filtering is computed to reproduce the filtered blocks back as a 3d image. The higher dimension allows BM4D to leverage spatial redundancy. 
 
 This method was introduced in, "EXACT TRANSFORM-DOMAIN NOISE VARIANCE FOR COLLABORATIVE FILTERING OF STATIONARY CORRELATED NOISE" by Ymir Mäkinen, Lucio Azzari, and Alessandro Foi. 
 
-In our context, we use BM4D denoiser for 3D images. The paper [1] shows that boundaries are preserved in the denoised images. 
+In our context, we use BM4D denoiser for 3D images. The paper [1] shows that boundaries are preserved in the denoised images. In bm3d_tut.ipynb, I have used the bm3d filter on a sample of images to see the effects. We can compare the output of this denoising with gaussian, mean filter, sobel filters, median filters, mean shift and other such methods. 
