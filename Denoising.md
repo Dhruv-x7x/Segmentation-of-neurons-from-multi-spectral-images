@@ -21,4 +21,4 @@ BM4D and BM3D work on similar principles which involve collaborative filtering, 
 
 This method was introduced in, "EXACT TRANSFORM-DOMAIN NOISE VARIANCE FOR COLLABORATIVE FILTERING OF STATIONARY CORRELATED NOISE" by Ymir Mäkinen, Lucio Azzari, and Alessandro Foi. 
 
-In our context, we use BM4D denoiser for 3D images. The paper shows that boundaries are preserved in the denoised images. 
+In our context, we use BM4D denoiser for 3D images. The paper [1] shows that boundaries are preserved in the denoised images. 
