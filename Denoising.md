@@ -21,4 +21,4 @@ BM4D and BM3D work on similar principles which involve block matching, collabora
 
 This method was introduced in, "EXACT TRANSFORM-DOMAIN NOISE VARIANCE FOR COLLABORATIVE FILTERING OF STATIONARY CORRELATED NOISE" by Ymir Mäkinen, Lucio Azzari, and Alessandro Foi. 
 
-In our context, we use BM4D denoiser for 3D images. The paper [1] shows that boundaries are preserved in the denoised images. In bm3d_tut.ipynb, I have used the bm3d filter on a sample of images to see the effects. We can compare the output of this denoising with gaussian, mean filter, sobel filters, median filters, mean shift and other such methods. 
+In our context, we use BM4D denoiser for 3D images. The paper [1] shows that boundaries are preserved in the denoised images. In bm3d_tut.ipynb, I have used the bm3d filter on a sample of images to see the effects. We can compare the output of this denoising with gaussian, mean filter, sobel filters, median filters, mean shift and other such methods. Mean shift is implemented in MEAN_SHIFT.m in matlab. The results have been compiled in Results.pdf.
