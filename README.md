@@ -30,4 +30,5 @@ The paper goes on to test the viability of their method on their own generated i
 - [Abstract](##Abstract)
 - [Methodology](Methodology.md)
 - [Denoising](Denoising.md)
+- [Dimensionality Reduction](DimensionalityReduction.md)
 
