@@ -24,11 +24,3 @@ We also present segmentations of real Brainbow images of the mouse hippocampus, 
 In layman terms, the problem the paper is trying to solve is the difficulty in automatic segmentation of neurons in 3D images due to their massive dataset size. Reconstructing the neural structures or the **neuroanatomy** helps neuroscientists understand the brain more but its not easy. One method to do this is to use **fluorescent** proteins that go to each neuron and label them with different colors, **stochastically** (randomly). Now that the neurons are colored, we can see each individual neuron and map it out but this method has its limitation as the color that expresses depends on too many factors. This is unreliable because you can have some neurons close together with the same colors, or one neuron with multiple colors or color changing over time, we can not control this. So, they take 3D images of the anatomy and have segmentation algorithms separate out individual neurons. This works but is harder to realize because 3D images are a really large dataset. The paper talks about an algorithm that groups together similar voxels based on their **spatio-color** relations to create supervoxels. This reduces the dataset size by an order of four, which means 10000 times smaller dataset. Now, the segmentation algorithms can be applied more easily and even be parallized over the supervoxels. 
 
 The paper goes on to test the viability of their method on their own generated images and also on actual Brainbow images of the mouse hippocampus.
-
-## Table of Contents
-
-- [Abstract](##Abstract)
-- [Methodology](Methodology.md)
-- [Denoising](Denoising.md)
-- [Dimensionality Reduction](DimensionalityReduction.md)
-
